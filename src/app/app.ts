@@ -9,7 +9,7 @@ import { filter } from 'rxjs';
   imports: [RouterOutlet],
   template: `
     @if (isNewVersionReady()) {
-      <span>🆕 New version available! Please reload the application.</span>
+      <span>🆕 New version is available! Please reload the application.</span>
       <button (click)="reload()">Reload</button>
     }
     <h1>Welcome to {{ title() }}!!</h1>
